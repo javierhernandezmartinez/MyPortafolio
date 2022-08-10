@@ -1,9 +1,9 @@
 <template>
-  <HomePrincipal msg="Welcome to Your Vue.js App"/>
+  <HomePrincipal/>
 </template>
 
 <script>
-import HomePrincipal from './components/Home.vue'
+import HomePrincipal from './components/Home/Home.vue'
 
 export default {
   name: 'App',
@@ -20,6 +20,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0;
+  display: flex;
+}
+
+body{
+  margin: 0px;
 }
 </style>
