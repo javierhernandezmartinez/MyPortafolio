@@ -1,0 +1,56 @@
+.div_header{
+    width: 100vw;
+    background: #101215;
+}
+
+nav, scroll-container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+nav {
+    width: 339px;
+    padding: 5px;
+    border: 1px solid black;
+}
+scroll-container {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+scroll-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 5em;
+}
+
+/*Menubar*/
+.p-menubar {
+    padding: 0.5rem;
+    background: #191c21;
+    color: whitesmoke;
+    border: 1px solid #191c21;
+    border-radius: 6px;
+    justify-content: end;
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-icon {
+    color: white;
+    margin-right: 0.5rem;
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text {
+    color: whitesmoke;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover {
+    background: #40526e;
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover .p-menuitem-icon {
+    color: whitesmoke;
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {
+    color: whitesmoke;
+}
