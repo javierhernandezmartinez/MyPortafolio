@@ -1,33 +1,50 @@
 .contenedor_1{
-  width: 95vw;
-  height: 90vh;
-  border-radius: 8px;
+  width: 100vw;
+  height: 100vh;
   margin: auto;
-  padding: 1% 5% 5% 5%;
-  margin-top: 3%;
-  background: #101215;
+  background: #04002f;
 }
 .div_img_perfil{
   text-align: center;
 }
 .img_perfil{
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  border: 2px solid white;
+  border: 4px solid #ff9702;
   margin: auto;
-  box-shadow: white 0px 0px 10px;
 }
 .text_present{
   color: white;
-  font-size: 12pt;
+  font-size: 20pt;
   font-weight: 600;
   text-align: center;
-  text-shadow: white 0px 0px 8px;
+}
+.text_present span{
+  color: #ff9702;
+  font-size: 30pt;
+  margin-right: 5px;
+}
+.text_position{
+  color: white;
+  font-size: 12pt;
+  font-weight:4500;
+  text-align: center;
+}
+.text_nombre{
+  color: white;
+  font-size: 12pt;
+  margin-right: 5px;
+}
+.text_nombre span{
+  color: #ff9702;
+  font-size: 20pt;
+  margin-right: 5px;
+  font-weight: 600;
 }
 
 .div_present{
-  width: 30vw;
+  width: 100%;
   height: 100%;
   place-items: center;
   margin: auto;
@@ -37,16 +54,15 @@
 
 .contenedor_2{
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   margin: auto;
   padding: 1% 5% 5% 5%;
-  margin-top: 3%;
   background: white;
   align-content: center;
 }
 .title_sobremi{
   width: 50vw;
-  font-size: large;
+  font-size: 20pt;
   font-weight: bold;
   margin: auto;
 }
@@ -56,4 +72,112 @@
   font-weight: 400;
   margin: auto;
   text-align: justify;
+}
+
+.line {
+  position: relative;
+  width: 19em;
+  margin: auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.anim-typewriter {
+  animation: typewriter 4s steps(50) 1s 1 normal both,
+  blinkTextCursor 500ms steps(50) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 10em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+/*Contacto*/
+.contenedor_6{
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  padding: 1% 5% 5% 5%;
+  background: #04002f;
+  color: white;
+}
+.tel{
+  font-size: 12pt;
+  text-align: start;
+}
+.input_contacto{
+  width: 100%;
+  height: 42px;
+  font-size: 12pt;
+  border-radius: 5px;
+  margin-bottom: 3%;
+  border: 1px solid rgba(0,0,0,.3);
+  padding-left: 5px;
+}
+.message{
+  height: 100px;
+}
+.button_contacto{
+  background: #04002f;
+  width: 100px;
+  height: 42px;
+  border-radius: 8px;
+  font-size: 12pt;
+  font-weight: 500;
+  color: white;
+  border: 1px solid white;
+}
+.row_contacto{
+  background: #04002f;
+  padding: 5%;
+}
+.div_contacto{
+  background: #04002f;
+  padding: 1rem;
+  color: white;
+}
+.div_contacto .pi{
+  color: goldenrod;
+}
+.div_icon .pi{
+  font-size: 26pt;
+  margin: 2%;
+  color: white;
+  background: transparent;
+}
+.div_icon .pi:hover{
+  cursor: pointer;
+  color: goldenrod;
+  border-radius: 50%;
+  transform: scale(1.2);
+  box-shadow: gold 0px 0px 10px;
+  transition-duration: 100ms;
+}
+.button_whats{
+  background: transparent;
+  border: transparent;
+}
+.text_contactame{
+  font-size: 18pt;
+  font-weight: 500;
+  color: #ff9702;
+}
+
+#page-7{
+  height: auto;
 }
